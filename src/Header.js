@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./css/header.css";
 import { FaInfinity, FaWallet } from "react-icons/fa";
 
@@ -11,14 +12,28 @@ function Header() {
       </div>
       <navbar className="header_Right">
         <ul>
-            <li><a href="#">Marketplace</a></li>
-            <li><a href="#">Get ERN</a></li>
-            <li><a href="#">Polygon Bridge</a></li>
-            <li><a href="#">Farm Stones</a></li>
-            <li><a href="#">Staking</a></li>
-            <FaWallet/>
-            <li><a href="#">Sign-In</a></li>
-            <li><a href="#">Sign-Up</a></li>
+          <li>
+            <Link to="/">Marketplace</Link>
+          </li>
+          <li>
+           <Link to="/">Get ERN</Link>
+          </li>
+          <li>
+            <Link to="/">Polygon Bridge</Link>
+          </li>
+          <li>
+            <Link to="/">Farm Stones</Link>
+          </li>
+          <li>
+            <Link to="/">Staking</Link>
+          </li>
+          <FaWallet />
+          <li>
+            <Link to="/">Sign-In</Link>
+          </li>
+          <li>
+            <Link to="/">Sign-Up</Link>
+          </li>
         </ul>
       </navbar>
     </div>
