@@ -34,10 +34,15 @@
 .header_List > li {
     list-style-type: none;
 }
-a.active {
+.header_List > NavLink {
     text-decoration: none;
     color: white;
 }
+
+/* a.active {
+    text-decoration: none;
+    color: white;
+} */
 .icon-color{
     color: rgb(203,183,34);
 }
