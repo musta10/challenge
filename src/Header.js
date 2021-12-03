@@ -10,7 +10,7 @@ function Header() {
         <FaInfinity />
         <p>ethernity</p>
       </div>
-      <navbar className="header_Right">
+      <nav className="header_Right">
         <ul>
           <li>
             <Link to="/">Marketplace</Link>
@@ -35,7 +35,7 @@ function Header() {
             <Link to="/">Sign-Up</Link>
           </li>
         </ul>
-      </navbar>
+      </nav>
     </div>
   );
 }
